@@ -1,0 +1,1077 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+html {
+    font-family: 'Lato',
+        sans-serif;
+    font-size: 16px;
+}
+
+
+/* Inicio menu de navegação */
+.menu {
+    background-color: #1c1c1c;
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.5em;
+}
+
+.menu img {
+    max-width: 100%;
+    max-height: 100%;
+    height: 20vh;
+    width: 16vw;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+}
+
+.menu li {
+    margin: 0 25px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.menu ul li a:hover {
+    background-color: #1c1c1c;
+    padding-bottom: 5px;
+    border-bottom: 3px solid #f35f40;
+}
+
+/* Fim menu de navegação */
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Incio seção bem vindo */
+.secao1 {
+    width: 100%;
+    height: 60vh;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    justify-content: center;
+}
+
+.secao1 h1 {
+    font-size: 3rem;
+    color: tomato;
+    border-bottom: 3px solid #1c1c1c;
+    display: flex;
+    align-content: flex-start;
+    margin-bottom: 2rem 0;
+}
+
+.secao1 p {
+
+    display: flex;
+    justify-content: center;
+    color: #1c1c1c;
+    font-size: 1.4rem;
+    text-align: center;
+    font-weight: 1000;
+    width: 50%;
+}
+
+/* Fim seção bem vindo */
+
+.img1 {
+    background-image: url(../images/background2.jpg);
+}
+
+.img2 {
+    background-image: url(../images/background.jpg);
+}
+
+/* Inicio Storytelling */
+.secao2 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.secao2 h2 {
+    display: flex;
+    color: tomato;
+    font-size: 2rem;
+    font-weight: bold;
+    padding-top: 30px;
+    padding-bottom: 5px;
+    margin-bottom: 30px;
+    border-bottom: 3px solid #1c1c1c;
+}
+
+.secao2 img {
+    width: 60%;
+    height: 55vh;
+    margin-top: 20px;
+    margin-bottom: 35px;
+    margin-right: 20px;
+    max-width: 100%;
+}
+
+.secao2 p {
+    font-size: 1.1rem;
+    display: flex;
+    text-align: justify;
+    padding-bottom: 1rem;
+    width: 80%;
+    font-weight: 450;
+
+}
+
+.story {
+    width: 60%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1c1c1c;
+    color: #fff;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border: 5px solid #f35f40;
+}
+
+/* Fim seção Storytelling */
+
+/* Inicio seção do hardware */
+
+.secao3 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-top: 2rem;
+    background-color: #f0bcb1;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.lista {
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 8rem;
+}
+
+.lista h2 {
+    color: #fff;
+    background: #f35f40;
+    height: auto;
+    padding: 1rem 2rem;
+    font-size: 1.3rem;
+    font-weight: 700;
+    border-bottom-left-radius: 0.6rem;
+    border-bottom-right-radius: 0.6rem;
+}
+
+.lista ul {
+    position: relative;
+    background: #fff;
+}
+
+.lista ul li {
+    list-style: none;
+    padding: 15px;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, .1);
+    transition: transform 0.5s;
+}
+
+.lista ul li:hover {
+    transform: scale(1.1);
+    z-index: 100;
+    background: tomato;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, .2);
+    color: #fff;
+}
+
+.lista ul li span {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    background: tomato;
+    color: #fff;
+    display: inline-block;
+    border-radius: 50%;
+    margin-left: 10px;
+    font-size: 12px;
+    font-weight: 600;
+    margin-right: 1rem;
+}
+
+
+
+
+.secao3 img {
+    max-width: 100%;
+    max-height: 100%;
+    margin: 2rem;
+    border: 5px solid tomato;
+
+}
+
+/* Fim seção do hardware */
+
+/* Inicio seção Armas */
+.secao4 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    background-color: #1c1c1c;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3rem 0;
+    border-top: 3px solid #f35f40;
+    border-bottom: 5px solid #fff;
+}
+
+.img-armas {
+
+    max-width: 100%;
+    border: 2px solid tomato;
+    display: flex;
+    align-content: center;
+
+}
+
+.funcionamento {
+    width: 25%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+
+.funcionamento h3 {
+    font-size: 2.2rem;
+    font-weight: 1000;
+    border-bottom: 3px solid tomato;
+    color: #fff;
+    display: flex;
+    align-content: flex-start;
+    padding: 1rem 0;
+}
+
+p {
+    margin: 0.3em 0;
+}
+
+
+
+.funcionamento p {
+    width: 100%;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 500;
+    display: flex;
+    text-align: justify;
+    padding: 2rem 0;
+}
+
+/* Fim seção de armas */
+/* Inicio seção a mais */
+.container-inicial {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    /* border-top: 4px solid #f0bcb1; */
+
+}
+
+.box-conteudo {
+
+    background-color: tomato;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    padding: 0 25px;
+    width: 50%;
+}
+
+.meio {
+    background-color: #1c1c1c;
+}
+
+.icone-inicial {
+    color: #fff;
+    font-size: 50px;
+    margin: 30px 0;
+}
+
+.titulo-box {
+    margin: 10px 0;
+    color: #1c1c1c;
+}
+
+.texto-box {
+    line-height: 25px;
+    font-size: 18px;
+    font-weight: 100;
+    text-align: center;
+    font-weight: bold;
+    margin: 15px 8px;
+    color: #1c1c1c;
+    width: 75%;
+}
+
+.direito {
+    background-color: #f0907c;
+}
+
+.link-box {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+
+}
+
+.texto-box a {
+    font-weight: bold;
+    font-size: 20px;
+    color: #f35f40;
+}
+
+.meio2,
+.meio3 {
+    color: #fff;
+}
+
+/* Fim seção a mais */
+/* Inicio seção investimento */
+.colunas {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem;
+}
+
+.produto {
+    width: 33vw;
+}
+
+.titulo-produto {
+    font-size: 32px;
+    margin-top: 20px;
+}
+
+.texto-produto {
+    font-size: 16px;
+    color: #333;
+    line-height: 26px;
+    margin: 20px 0;
+    width: 30vw;
+}
+
+
+.produto img {
+    width: 100%;
+}
+
+/* fim seção investimento */
+/* Inicio seção compra */
+.secao5 {
+    width: 100%;
+    height: auto;
+    background-color: tomato;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    padding: 2rem 0;
+}
+
+.secao5 h2 {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 1000;
+
+}
+
+.secao5 p {
+    font-size: 1.5rem;
+    width: 45%;
+    font-weight: 800;
+    padding: 2rem 0;
+    display: flex;
+    text-align: justify;
+}
+
+
+
+.texto-container {
+    color: #fff;
+    font-size: 2rem;
+    width: 40vw;
+    padding: 1.5rem 0;
+}
+
+
+.botao-container {
+    color: #fff;
+    text-decoration: none;
+    font-size-adjust: 40px;
+    background-color: rgb(50, 205, 63);
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.lista2 {
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 8rem;
+}
+
+.lista2 h2 {
+    color: #fff;
+    background: #f35f40;
+    height: auto;
+    padding: 1rem 2rem;
+    font-size: 1.3rem;
+    font-weight: 700;
+    border-bottom-left-radius: 0.6rem;
+    border-bottom-right-radius: 0.6rem;
+}
+
+.lista2 ul {
+    position: relative;
+    background: #fff;
+}
+
+.lista2 ul li {
+    list-style: none;
+    padding: 15px;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, .1);
+    transition: transform 0.5s;
+}
+
+.lista2 ul li:hover {
+    transform: scale(1.1);
+    z-index: 100;
+    background: tomato;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, .2);
+    color: #fff;
+}
+
+.lista2 ul li span {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    background: tomato;
+    color: #fff;
+    display: inline-block;
+    border-radius: 50%;
+    margin-left: 10px;
+    font-size: 12px;
+    font-weight: 600;
+    margin-right: 1rem;
+}
+
+
+
+
+
+/* Fim da seção de compra */
+
+/* Inicio seção  de galeria fotos */
+
+.secao6 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.secao6 h2 {
+    padding-top: 2rem;
+    text-align: center;
+    color: #f35f40;
+    font-weight: 1000;
+    font-size: 2.3rem;
+
+    /* border-bottom: 3px solid #1c1c1c; */
+}
+
+.secao6 img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+.single {
+    padding: 0 20px 20px;
+}
+
+
+
+
+.coluna-img {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 0;
+}
+
+/* Fim seção galeria de fotos*/
+
+/* Inicio seção quem somos */
+
+.box {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.box h2 {
+    font-size: 2rem;
+    text-align: center;
+    color: #f35f40;
+    border-bottom: 3px solid tomato;
+    padding-bottom: 1rem;
+}
+
+.box h2 i {
+    color: #1c1c1c;
+    font-size: 2.8rem;
+    padding-left: 1rem;
+}
+
+.box p,
+.lista-cargo {
+    color: #fff;
+    font-weight: 800;
+    font-size: 1.3rem;
+}
+
+.box p i {
+    font-size: 2.5rem;
+    padding-right: 1.2rem;
+    padding-bottom: 0.5rem;
+}
+
+
+.linha {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1c1c1c;
+    border-bottom: 3px solid tomato;
+    padding: 2rem;
+}
+
+
+
+
+.segmento1 {
+    padding: 3rem;
+    border-right: 1px solid #f35f40;
+    border-bottom: 1px solid #f35f40;
+}
+
+.segmento2 {
+    padding: 3rem;
+    border-right: 1px solid #f35f40;
+    border-top: 1px solid #f35f40;
+}
+
+.segmento3 {
+    padding: 3rem;
+    border-left: 1px solid #f35f40;
+    border-bottom: 1px solid #f35f40;
+}
+
+.segmento4 {
+    padding: 3rem;
+    border-left: 1px solid #f35f40;
+    border-top: 1px solid #f35f40;
+}
+
+/* Fim seção quem somos */
+
+/* Inicio da seção de formulário  */
+
+.secao6 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-bottom: 2.3rem;
+}
+
+.secao6 h2 {
+    text-align: center;
+    border-bottom: 3px solid #1c1c1c;
+    margin-bottom: 3rem;
+}
+
+.wrapper {
+    width: 100%;
+    padding: 0 20px;
+}
+
+.formulario {
+    max-width: 550px;
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 30px;
+    border-radius: 5px;
+    display: flex;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.13);
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    margin-right: 4%;
+}
+
+.inputs,
+.mensagem {
+    width: 48%;
+}
+
+
+.input,
+.mensagem textarea {
+    margin: 10px 0;
+    background: transparent;
+    border: 0;
+    border-bottom: 2px solid tomato;
+    padding: 10px;
+    color: tomato;
+    width: 100%;
+}
+
+.mensagem textarea {
+    height: 212px;
+}
+
+::-webkit-input-placeholder {
+    color: #f0907c;
+}
+
+::-moz-input-placeholder {
+    color: #f0907c;
+}
+
+::-ms-input-placeholder {
+    color: #f0907c;
+}
+
+.botao {
+    background: tomato;
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Fim seção de formulario */
+
+.rodape {
+    width: 100%;
+    height: auto;
+    background: #1c1c1c;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rodape h4 {
+    color: #fff;
+    font-weight: 800;
+    font-size: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1.5rem;
+}
+
+.apoio {
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+
+.rodape img {
+    width: 5vw;
+    height: 10vh;
+    padding-bottom: 1rem;
+}
+
+.rodape h6 {
+    color: #fff;
+    font-size: 0.8rem;
+    padding-top: 1rem;
+}
+
+.redes-sociais {
+    font-size: 25px;
+    margin: 0 5px;
+    color: #fff;
+    padding-top: 1rem;
+    padding-right: 1rem;
+}
+
+.fa-twitter-square:hover {
+    color: #00acee;
+}
+
+.fa-instagram-square:hover {
+    color: #E1306C;
+}
+
+.fa-facebook-square:hover {
+    color: #3b5998;
+}
+
+
+@media(max-width: 1000px) {
+    .secao1 h1 {
+        font-size: 2.5rem;
+        color: tomato;
+        border-bottom: 3px solid #1c1c1c;
+        display: flex;
+        align-content: flex-start;
+        margin-bottom: 2rem 0;
+    }
+
+    .secao1 p {
+
+        display: flex;
+        justify-content: center;
+        color: #1c1c1c;
+        font-size: 1.1rem;
+        text-align: center;
+        font-weight: 1000;
+        width: 75%;
+    }
+}
+
+
+
+
+
+
+@media(max-width: 800px) {
+    .menu ul {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menu li {
+        margin: 0.1rem 0;
+    }
+
+    .menu img {
+        max-width: 50%;
+        max-height: 50%;
+        height: 20vh;
+        width: 150vw;
+    }
+
+    .rodape img {
+        width: 100px;
+    }
+
+    .texto-box {
+        font-size: 20px;
+    }
+
+    .link-box {
+        font-size: 10px;
+    }
+
+    .container-inicial {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+
+    .box-conteudo {
+        width: 100%;
+        height: 50vh;
+    }
+
+}
+
+@media(max-width: 1860px) {
+    .secao3 img {
+        max-width: 85%;
+        max-height: 100%;
+        margin: 2rem;
+        border: 5px solid tomato;
+    }
+
+    .img-hardware {
+        width: 65%;
+    }
+
+    .lista {
+        width: 20rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 3.5rem;
+    }
+
+}
+
+@media (max-width: 1235px) {
+    .img-hardware {
+        width: 55%;
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media (max-width: 960px) {
+    .secao3 {
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+    }
+
+    .secao4 {
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        padding: 3rem 0;
+    }
+
+    .funcionamento {
+        width: 50%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+
+
+    }
+
+    .funcionamento p {
+        width: 100%;
+        color: #fff;
+        font-size: 1.2rem;
+        font-weight: 500;
+        display: flex;
+        text-align: justify;
+        padding: 2rem 0;
+    }
+
+
+
+    .funcionamento h3 {
+        font-size: 1.6rem;
+        font-weight: 1000;
+        border-bottom: 3px solid tomato;
+        color: #fff;
+        display: flex;
+        align-content: flex-start;
+        padding: 1rem 0;
+    }
+
+    .story p {
+        width: 95%;
+    }
+
+    .secao5 p {
+        width: 95%;
+    }
+
+    .colunas {
+        flex-direction: column;
+    }
+
+    .produto img {
+        width: 180%;
+
+    }
+
+    .titulo-produto {
+        width: 100%;
+        font-size: 28px;
+    }
+
+    .texto-produto {
+        width: 100%;
+        font-size: 20px;
+
+    }
+}
+
+@media (max-width: 422px) {
+    .menu img {
+        max-width: 100%;
+        max-height: 100%;
+        height: 20vh;
+        width: 400vw;
+    }
+
+    .secao1 h1 {
+        display: flex;
+        color: tomato;
+        font-size: 1.2rem;
+        font-weight: bold;
+        padding-top: 30px;
+        padding-bottom: 1px;
+        margin-bottom: 1px;
+        border-bottom: 3px solid #1c1c1c;
+    }
+
+    .secao1 p {
+
+        display: flex;
+        justify-content: center;
+        color: #1c1c1c;
+        font-size: 0.8rem;
+        text-align: center;
+        font-weight: 1000;
+
+    }
+
+    .secao2 h2 {
+        font-size: 0.9rem;
+    }
+
+    .secao2 p {
+        font-size: 0.8rem;
+    }
+
+    .secao4 p {
+        font-size: 0.8rem;
+    }
+
+    .secao5 p {
+        font-size: 0.8rem;
+    }
+
+
+    .texto-container {
+        color: #fff;
+        font-size: 2rem;
+        padding: 1rem 0;
+        width: 80vw;
+    }
+
+
+    .botao-container {
+        color: #fff;
+        text-decoration: none;
+        font-size-adjust: 20px;
+        background-color: rgb(50, 205, 63);
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    .lista2 {
+        padding-right: 8rem;
+    }
+
+
+
+
+
+
+
+}
+
+
+
+
+@media (max-width: 1123px) {
+
+    .box p,
+    .lista-cargo {
+        color: #fff;
+        font-weight: 800;
+        font-size: 0.8rem;
+    }
+}
+
+
+
+
+@media (max-width: 600px) {
+    .formulario {
+        flex-direction: column;
+    }
+
+    .mensagem textarea {
+        height: 80px;
+    }
+
+    .inputs,
+    .mensagem {
+        width: 100%;
+    }
+
+    .texto-produto {
+        width: 150%;
+        font-size: 15px;
+    }
+
+    .produto {
+        width: 60%;
+        margin-right: 10rem;
+    }
+
+    .img-armas {
+        margin-top: 1rem;
+    }
+
+}
